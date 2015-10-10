@@ -1,0 +1,245 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/website.scss */
+.wrapper {
+  width: 1026px;
+  margin: 0 auto;
+  z-index: -2;
+}
+/* line 12, ../sass/website.scss */
+.wrapper header {
+  width: 200px;
+  float: left;
+}
+/* line 15, ../sass/website.scss */
+.wrapper header a {
+  text-decoration: none;
+}
+/* line 18, ../sass/website.scss */
+.wrapper header .logo {
+  width: 110px;
+  margin: 5px 0 0 15px;
+  z-index: 0;
+}
+/* line 23, ../sass/website.scss */
+.wrapper header .cover {
+  width: 53px;
+  height: 42px;
+  background-color: black;
+  z-index: 1;
+  position: relative;
+  bottom: 82px;
+  left: 46px;
+}
+/* line 31, ../sass/website.scss */
+.wrapper header .cover .initials {
+  color: white;
+  font-size: 35px;
+  font-style: oblique;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+/* line 40, ../sass/website.scss */
+.wrapper header .nav {
+  font-family: 'Ropa Sans' sans-serif;
+  display: block;
+  position: relative;
+  bottom: 53px;
+}
+/* line 46, ../sass/website.scss */
+.wrapper header .nav.name {
+  font-weight: 300;
+  color: #222;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* line 52, ../sass/website.scss */
+.wrapper header .nav.title {
+  font-style: italic;
+  font-size: 15px;
+  color: #b3b3b3;
+}
+/* line 58, ../sass/website.scss */
+.wrapper header .nav.ul li a {
+  color: gray;
+  line-height: 22px;
+  position: relative;
+  top: 10px;
+}
+/* line 63, ../sass/website.scss */
+.wrapper header .nav.ul li a:hover {
+  background-color: aqua;
+}
+/* line 67, ../sass/website.scss */
+.wrapper header .nav.ul .number {
+  color: gray;
+  position: relative;
+  top: 13px;
+  color: #b3b3b3;
+}
+/* line 77, ../sass/website.scss */
+.wrapper .main #intro {
+  padding: 10px 0 10px 15px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 16px;
+  left: 305px;
+  font: 27px 'Open Sans', serif;
+  width: 785px;
+  z-index: 5;
+}
+/* line 87, ../sass/website.scss */
+.wrapper .main #intro a {
+  text-decoration: none;
+  color: aqua;
+}
+/* line 90, ../sass/website.scss */
+.wrapper .main #intro a:hover {
+  color: greenyellow;
+}
+/* line 95, ../sass/website.scss */
+.wrapper .main .venn {
+  width: 740px;
+  position: relative;
+  top: 160px;
+  left: 175px;
+  font-family: 'Open Sans', serif;
+}
+/* line 101, ../sass/website.scss */
+.wrapper .main .venn .interests {
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+/* line 106, ../sass/website.scss */
+.wrapper .main .venn .brain {
+  position: relative;
+  bottom: 466px;
+  left: 92px;
+  z-index: 0;
+}
+/* line 111, ../sass/website.scss */
+.wrapper .main .venn .brain a {
+  position: relative;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  z-index: 2;
+  text-align: center;
+}
+/* line 119, ../sass/website.scss */
+.wrapper .main .venn .brain a:hover {
+  color: #b3d4fc;
+}
+/* line 123, ../sass/website.scss */
+.wrapper .main .venn .brain .amazing {
+  bottom: 275px;
+  left: 86px;
+}
+/* line 127, ../sass/website.scss */
+.wrapper .main .venn .brain .information {
+  bottom: 384px;
+  left: 536px;
+}
+/* line 131, ../sass/website.scss */
+.wrapper .main .venn .brain .solving {
+  bottom: 160px;
+  left: 268px;
+}
+/* line 135, ../sass/website.scss */
+.wrapper .main .venn .brain .communication {
+  bottom: 308px;
+  left: 515px;
+}
+/* line 139, ../sass/website.scss */
+.wrapper .main .venn .brain .pizza {
+  bottom: 228px;
+  left: 472px;
+}
+/* line 146, ../sass/website.scss */
+.wrapper footer {
+  color: gray;
+  font-size: 14px;
+  position: relative;
+  left: 277px;
+  top: 87px;
+}
+/* line 152, ../sass/website.scss */
+.wrapper footer .quote {
+  color: black;
+}
+/* line 154, ../sass/website.scss */
+.wrapper footer .quote:hover {
+  background-color: aqua;
+  cursor: pointer;
+}

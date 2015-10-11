@@ -229,17 +229,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 146, ../sass/website.scss */
 .wrapper footer {
   color: gray;
-  font-size: 14px;
+  font: 'Ropa San', sans-serif;
+  font-size: 12px;
   position: relative;
   left: 277px;
   top: 87px;
 }
-/* line 152, ../sass/website.scss */
+/* line 153, ../sass/website.scss */
 .wrapper footer .quote {
   color: black;
 }
-/* line 154, ../sass/website.scss */
+/* line 155, ../sass/website.scss */
 .wrapper footer .quote:hover {
   background-color: aqua;
   cursor: pointer;
+}
+/* line 160, ../sass/website.scss */
+.wrapper footer .colorize {
+  color: black;
+  background-color: aqua;
 }

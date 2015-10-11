@@ -145,7 +145,8 @@
   }
   footer {
     color: gray;
-    font-size: 14px;
+    font: 'Ropa San', sans-serif;
+    font-size: 12px;
     position: relative;
     left: 277px;
     top: 87px;
@@ -155,6 +156,10 @@
         background-color: aqua;
         cursor: pointer;
       }
+    }
+    .colorize { 
+      color: black;
+      background-color: aqua;
     }
   }
 }

@@ -92,13 +92,16 @@
         }
       }
     }
+
     .venn {
       width: 740px;
       position: relative;
-      top: 160px;
-      left: 175px;
+      top: 177px;
+      left: 98px;
       font-family: 'Open Sans', serif;
       .interests {
+        position: relative;
+        bottom: 3px;
         text-align: center;
         font-size: 26px;
         letter-spacing: 2px;
@@ -148,7 +151,7 @@
     font: 'Ropa San', sans-serif;
     font-size: 12px;
     position: relative;
-    left: 277px;
+    left: 200px;
     top: 87px;
     .quote {
       color: black;

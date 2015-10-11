@@ -166,28 +166,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .wrapper .main #intro a:hover {
   color: greenyellow;
 }
-/* line 95, ../sass/website.scss */
+/* line 96, ../sass/website.scss */
 .wrapper .main .venn {
   width: 740px;
   position: relative;
-  top: 160px;
-  left: 175px;
+  top: 177px;
+  left: 98px;
   font-family: 'Open Sans', serif;
 }
-/* line 101, ../sass/website.scss */
+/* line 102, ../sass/website.scss */
 .wrapper .main .venn .interests {
+  position: relative;
+  bottom: 3px;
   text-align: center;
   font-size: 26px;
   letter-spacing: 2px;
 }
-/* line 106, ../sass/website.scss */
+/* line 109, ../sass/website.scss */
 .wrapper .main .venn .brain {
   position: relative;
   bottom: 466px;
   left: 92px;
   z-index: 0;
 }
-/* line 111, ../sass/website.scss */
+/* line 114, ../sass/website.scss */
 .wrapper .main .venn .brain a {
   position: relative;
   color: black;
@@ -197,54 +199,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 2;
   text-align: center;
 }
-/* line 119, ../sass/website.scss */
+/* line 122, ../sass/website.scss */
 .wrapper .main .venn .brain a:hover {
   color: #b3d4fc;
 }
-/* line 123, ../sass/website.scss */
+/* line 126, ../sass/website.scss */
 .wrapper .main .venn .brain .amazing {
   bottom: 275px;
   left: 86px;
 }
-/* line 127, ../sass/website.scss */
+/* line 130, ../sass/website.scss */
 .wrapper .main .venn .brain .information {
   bottom: 384px;
   left: 536px;
 }
-/* line 131, ../sass/website.scss */
+/* line 134, ../sass/website.scss */
 .wrapper .main .venn .brain .solving {
   bottom: 160px;
   left: 268px;
 }
-/* line 135, ../sass/website.scss */
+/* line 138, ../sass/website.scss */
 .wrapper .main .venn .brain .communication {
   bottom: 308px;
   left: 515px;
 }
-/* line 139, ../sass/website.scss */
+/* line 142, ../sass/website.scss */
 .wrapper .main .venn .brain .pizza {
   bottom: 228px;
   left: 472px;
 }
-/* line 146, ../sass/website.scss */
+/* line 149, ../sass/website.scss */
 .wrapper footer {
   color: gray;
   font: 'Ropa San', sans-serif;
   font-size: 12px;
   position: relative;
-  left: 277px;
+  left: 200px;
   top: 87px;
 }
-/* line 153, ../sass/website.scss */
+/* line 156, ../sass/website.scss */
 .wrapper footer .quote {
   color: black;
 }
-/* line 155, ../sass/website.scss */
+/* line 158, ../sass/website.scss */
 .wrapper footer .quote:hover {
   background-color: aqua;
   cursor: pointer;
 }
-/* line 160, ../sass/website.scss */
+/* line 163, ../sass/website.scss */
 .wrapper footer .colorize {
   color: black;
   background-color: aqua;

@@ -73,7 +73,7 @@
       }
     }
   }
-  .main {
+  .main {  
     #intro {
       padding: 10px 0 10px 15px;
       color: white;
@@ -90,6 +90,11 @@
         &:hover {
           color: greenyellow;
         }
+      }
+      #developmentIntro{
+        position: relative;
+        left: 203px;
+        color: greenyellow;
       }
     }
 
@@ -165,4 +170,16 @@
       background-color: aqua;
     }
   }
+  .slides {
+    position: relative;
+    top: 133px;
+  }
+}
+
+/* slick style */
+
+.slick-dots li button:before {
+  content: '.';
+  font-size: 50px;
+  top: -43px
 }

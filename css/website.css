@@ -166,7 +166,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .wrapper .main #intro a:hover {
   color: greenyellow;
 }
-/* line 96, ../sass/website.scss */
+/* line 94, ../sass/website.scss */
+.wrapper .main #intro #developmentIntro {
+  position: relative;
+  left: 203px;
+  color: greenyellow;
+}
+/* line 101, ../sass/website.scss */
 .wrapper .main .venn {
   width: 740px;
   position: relative;
@@ -174,7 +180,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 98px;
   font-family: 'Open Sans', serif;
 }
-/* line 102, ../sass/website.scss */
+/* line 107, ../sass/website.scss */
 .wrapper .main .venn .interests {
   position: relative;
   bottom: 3px;
@@ -182,14 +188,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 26px;
   letter-spacing: 2px;
 }
-/* line 109, ../sass/website.scss */
+/* line 114, ../sass/website.scss */
 .wrapper .main .venn .brain {
   position: relative;
   bottom: 466px;
   left: 92px;
   z-index: 0;
 }
-/* line 114, ../sass/website.scss */
+/* line 119, ../sass/website.scss */
 .wrapper .main .venn .brain a {
   position: relative;
   color: black;
@@ -199,36 +205,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 2;
   text-align: center;
 }
-/* line 122, ../sass/website.scss */
+/* line 127, ../sass/website.scss */
 .wrapper .main .venn .brain a:hover {
   color: #b3d4fc;
 }
-/* line 126, ../sass/website.scss */
+/* line 131, ../sass/website.scss */
 .wrapper .main .venn .brain .amazing {
   bottom: 275px;
   left: 86px;
 }
-/* line 130, ../sass/website.scss */
+/* line 135, ../sass/website.scss */
 .wrapper .main .venn .brain .information {
   bottom: 384px;
   left: 536px;
 }
-/* line 134, ../sass/website.scss */
+/* line 139, ../sass/website.scss */
 .wrapper .main .venn .brain .solving {
   bottom: 160px;
   left: 268px;
 }
-/* line 138, ../sass/website.scss */
+/* line 143, ../sass/website.scss */
 .wrapper .main .venn .brain .communication {
   bottom: 308px;
   left: 515px;
 }
-/* line 142, ../sass/website.scss */
+/* line 147, ../sass/website.scss */
 .wrapper .main .venn .brain .pizza {
   bottom: 228px;
   left: 472px;
 }
-/* line 149, ../sass/website.scss */
+/* line 154, ../sass/website.scss */
 .wrapper footer {
   color: gray;
   font: 'Ropa San', sans-serif;
@@ -237,17 +243,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 200px;
   top: 87px;
 }
-/* line 156, ../sass/website.scss */
+/* line 161, ../sass/website.scss */
 .wrapper footer .quote {
   color: black;
 }
-/* line 158, ../sass/website.scss */
+/* line 163, ../sass/website.scss */
 .wrapper footer .quote:hover {
   background-color: aqua;
   cursor: pointer;
 }
-/* line 163, ../sass/website.scss */
+/* line 168, ../sass/website.scss */
 .wrapper footer .colorize {
   color: black;
   background-color: aqua;
+}
+/* line 173, ../sass/website.scss */
+.wrapper .slides {
+  position: relative;
+  top: 133px;
+}
+
+/* slick style */
+/* line 181, ../sass/website.scss */
+.slick-dots li button:before {
+  content: '.';
+  font-size: 50px;
+  top: -43px;
 }
